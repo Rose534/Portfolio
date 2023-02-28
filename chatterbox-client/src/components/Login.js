@@ -8,17 +8,18 @@ function Login({ onLogin }) {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Check the username and password
+   
     if (username === 'admin' && password === 'password') {
-      // Call the onLogin function with the username
+      
       onLogin(username);
     } else {
-      // Display an error message
+    
       setError('Invalid username or password');
     }
   };
 
   return (
+    <div className="login-form">
     <form onSubmit={handleSubmit}>
       <label>
         Username:
@@ -33,6 +34,7 @@ function Login({ onLogin }) {
       <button type="submit">Login</button>
       {error && <p>{error}</p>}
     </form>
+    </div>
   );
 }
 

@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import Login from './components/Login';
 import Home from './components/Home';
+import './App.css';
 
 function App() {
   const [username, setUsername] = useState('');
 
   const handleLogin = (username) => {
-    // Set the username in the state
+  
     setUsername(username);
   };
 
