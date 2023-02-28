@@ -9,7 +9,7 @@ function Login({ onLogin }) {
     event.preventDefault();
 
    
-    if (username === 'admin' && password === 'password') {
+    if (username === 'rose' && password === 'password123') {
       
       onLogin(username);
     } else {
