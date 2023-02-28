@@ -20,6 +20,7 @@ function Login({ onLogin }) {
 
   return (
     <div className="login-form">
+       {/* <img id = "login-img" src="https://53525363.000webhostapp.com/Images/JarjarLee.jpeg" /> */}
     <form onSubmit={handleSubmit}>
       <label>
         Username:
