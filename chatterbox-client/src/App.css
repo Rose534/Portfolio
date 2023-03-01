@@ -4,8 +4,8 @@ body {
 
 #logo{
   width: 15%;
-  margin-top: -60px; 
-  margin-left: -20px;
+  margin-top: -10px; 
+  margin-left: -10px;
  }
 
 .login-form {
@@ -51,6 +51,10 @@ body {
   background-color: #45a049;
 } */
 
-#navbar {
-  background-color: #f5f5f5;
+#navbar-pages{
+  margin-left: 700px;
+}
+
+nav{
+  height: 100px; 
 }
