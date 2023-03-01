@@ -1,0 +1,2 @@
+Project.create(title: "Project 1", description: "This is project 1", image_url: "https://example.com/project1.png")
+Project.create(title: "Project 2", description: "This is project 2", image_url: "https://example.com/project2.png")
