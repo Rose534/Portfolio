@@ -12,4 +12,8 @@ end
 use Rack::JSONBodyParser
 
 # Our application
-run ApplicationController
+run Rack::URLMap.new(
+  '/blog_posts' => BlogPostsController.new,
+  '/projects' => ProjectsController.new,
+  '/' => ApplicationController.new
+)
