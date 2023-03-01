@@ -2,8 +2,10 @@ import React from 'react';
 
 function NavigationBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav id="navbar" className="navbar navbar-expand-lg navbar-light bg-light" style={{backgroundColor: '#f5f5f5'}}>
+        <img id = "logo" src="https://53525363.000webhostapp.com/Images/PORTLO-removebg-preview.png" alt="PORTLO" />
       <div className="container">
+        
         <a className="navbar-brand" href="#">PORTLO</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

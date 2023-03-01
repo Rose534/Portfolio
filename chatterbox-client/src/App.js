@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Login from './components/Login';
 import Home from './components/Home';
-import Navigation from './components/Navigation';
 import './App.css';
 
 function App() {
@@ -13,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <Navigation/>
+      
       {username ? (
         <Home username={username} />
       ) : (
