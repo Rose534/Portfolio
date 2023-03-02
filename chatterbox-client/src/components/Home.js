@@ -9,19 +9,17 @@ function Home() {
            <div id="hello">
             <h1 id="helo"> HELLO,</h1>
             <h3 id= "illustrator">I am an <mark>ILLUSTRATOR,</mark> <mark> GRAPHIC DESIGNER </mark></h3>
-            <h3 id= "ui">and <mark>UI/UX </mark>designer</h3>
+            <h3 id= "ui">and <mark>UI/UX </mark>designer.</h3>
            </div>
-           <div id="div1">  
-            <p id="bring"> Bringing your dreams to life</p>
+           <div>
+            <p id="people"> With many years of experience in the industry, <br></br>
+            I have developed a keen eye for design, a deep <br></br>understanding of user behavior, and a 
+            commitment <br></br>to delivering exceptional results on every project.</p>
+
            </div>
-           <div id="div2">  
-            <p id="power"> Powerful designs, mode simple</p>
-           </div>
-           <div id="div3">  
-            <p id="people"> People ignore designs that ignore people</p>
-           </div>
-           <div id="div4">
-              <h1>About me</h1>
+           <div id="email">
+           <img src="https://53525363.000webhostapp.com/Images/icons8-instagram-48-removebg-preview.png" alt=""/>
+           <img src="https://53525363.000webhostapp.com/Images/icons8-mail-48-removebg-preview.png" alt=""/>
            </div>
         </div>
     )
