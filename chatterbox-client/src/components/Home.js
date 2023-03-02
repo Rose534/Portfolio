@@ -9,7 +9,6 @@ function Home() {
            <div id="hello">
             <h1 id="helo"> HELLO,</h1>
             <h3 id= "illustrator">I am an <mark>ILLUSTRATOR,</mark> <mark> GRAPHIC DESIGNER </mark></h3>
-            
             <h3 id= "ui">and <mark>UI/UX </mark>designer</h3>
            </div>
            <div id="div1">  
@@ -17,6 +16,12 @@ function Home() {
            </div>
            <div id="div2">  
             <p id="power"> Powerful designs, mode simple</p>
+           </div>
+           <div id="div3">  
+            <p id="people"> People ignore designs that ignore people</p>
+           </div>
+           <div id="div4">
+              <h1>About me</h1>
            </div>
         </div>
     )

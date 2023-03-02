@@ -116,7 +116,8 @@ margin-left: 750px;
 }
 
 #div2{
-  background-color: #87a552;
+  background-color: 
+  #b7757e;
   width: 180px;
   height: 80px;
   margin-top: -80px;
@@ -125,4 +126,22 @@ margin-left: 750px;
   font-size: 20px;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
+  }
+
+  #div3{
+    background-color: #87a552;
+    width: 180px;
+    height: 100px;
+    margin-top: -80px;
+    margin-left: 420px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    }
+
+  #div4{
+    margin-top: 150px;
+    height: 500px;
+    
   }
