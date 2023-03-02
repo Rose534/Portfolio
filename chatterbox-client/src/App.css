@@ -1,5 +1,5 @@
 body {
-  background-color: #f5f5f5;
+  background-color: #f5f5f5
 }
 
 #logo{
@@ -62,8 +62,13 @@ nav{
 
 #girl{
 width: 400px;
-margin-left: 450px;
+margin-left: 580px;
 border-radius: 50%;
 background: #d954c1;
 
+}
+
+#hello {
+ margin-top: -350px;
+ margin-left: 30px;
 }
