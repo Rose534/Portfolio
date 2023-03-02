@@ -6,6 +6,10 @@ body {
   background-color: #c4ded9
 }
 
+mark{
+  background-color: #f4b941;
+}
+
 #logo{
   width: 15%;
   margin-top: -10px; 
