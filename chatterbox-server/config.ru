@@ -13,7 +13,5 @@ use Rack::JSONBodyParser
 
 # Our application
 run Rack::URLMap.new(
-  '/blog_posts' => BlogPostsController.new,
-  '/projects' => ProjectsController.new,
   '/' => ApplicationController.new
 )
