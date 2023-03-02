@@ -18,8 +18,8 @@ function Home() {
 
            </div>
            <div id="email">
-           <img src="https://53525363.000webhostapp.com/Images/icons8-instagram-48-removebg-preview.png" alt=""/>
-           <img src="https://53525363.000webhostapp.com/Images/icons8-mail-48-removebg-preview.png" alt=""/>
+           <a href="https://www.instagram.com/illustrationsbywambui/" target="_blank"><img src="https://53525363.000webhostapp.com/Images/icons8-instagram-48-removebg-preview.png" alt=""/></a>
+           <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRmTNxNvmpKRVHmQwkWPdlQFvwshQVPrrkDBVBbSwnhTngPHPjTWwrhtJLqFqQhhcPrgsDL" target="_blank"><img src="https://53525363.000webhostapp.com/Images/icons8-mail-48-removebg-preview.png" alt=""/></a>
            </div>
         </div>
     )
