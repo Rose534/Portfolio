@@ -12,9 +12,11 @@ function Home() {
             
             <h3 id= "ui">and <mark>UI/UX </mark>designer</h3>
            </div>
-           <div>
-          {/*   <p id= "dreams"> Bringing your <br>
-            </br>dreams to life</p> */}
+           <div id="div1">  
+            <p id="bring"> Bringing your dreams to life</p>
+           </div>
+           <div id="div2">  
+            <p id="power"> Powerful designs, mode simple</p>
            </div>
         </div>
     )

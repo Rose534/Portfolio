@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 body {
   background-color: #c4ded9
@@ -97,3 +98,31 @@ margin-left: 750px;
   font-size: 50px;
   font-family: 'Courgette', cursive;
 }
+
+#div1{
+  background-color: #87a552;
+  width: 150px;
+  height: 80px;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  }
+
+#bring{
+  text-align: center;
+
+}
+
+#div2{
+  background-color: #87a552;
+  width: 180px;
+  height: 80px;
+  margin-top: -80px;
+  margin-left: 220px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  }
