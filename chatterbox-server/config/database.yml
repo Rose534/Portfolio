@@ -7,7 +7,7 @@ development:
   <<: *default
   database: db/development.sqlite3
 
-test:
+production:
   <<: *default
   database: db/test.sqlite3
 
