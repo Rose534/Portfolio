@@ -34,13 +34,16 @@ function Home() {
            </div>
            <div id="div5">
             <ul>
-           <li>Visual Design</li>
-            <li>User Research</li>
-            <li>Wireframing</li>
-            <li>User Experience Design</li>
-            <li>Visual Storytelling</li>
-            <li>Editorial Illustration</li>
+           <li><mark>Visual Design</mark></li>
+            <li><mark>User Research</mark></li>
+            <li><mark>Wireframing</mark></li>
+            <li><mark>User Experience Design</mark></li>
+            <li><mark>Visual Storytelling</mark></li>
+            <li><mark>Editorial Illustration</mark></li>
             </ul>
+           </div>
+           <div id="div6">
+            <h1>Recent projects</h1>
            </div>
         </div>
     )
