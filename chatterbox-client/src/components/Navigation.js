@@ -19,7 +19,7 @@ function Navigation({ onNavClick }) {
               <a className="nav-link" href="#portfolio" onClick={() => onNavClick('portfolio')}>Portfolio</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#skills" onClick={() => onNavClick('skills')}>Skills</a>
+              <a className="nav-link" href="#skills" onClick={() => onNavClick('skills')}>Add</a>
             </li>
           </ul>
         </div>

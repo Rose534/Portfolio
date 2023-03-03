@@ -31,6 +31,12 @@ class ApplicationController < Sinatra::Base
       projects = Project.all
       projects.to_json
     end
+
+    delete '/projects/:id' do
+      project = Project.find(params[:id])
+      project.destroy
+      status 204 
+    end
  
 
     end

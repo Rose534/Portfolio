@@ -1,13 +1,21 @@
 import React, { useState, useEffect } from 'react';
+import Skills from './Skills';
 
 function Portfolio() {
   const [projects, setProjects] = useState([]);
+  
 
   useEffect(() => {
     fetch('https://rose-portfolio-sinatra.onrender.com/projects')
       .then(response => response.json())
       .then(data => setProjects(data));
   }, []);
+
+  const addProject = (title, imageURL) => {
+    const newProject = { title, image_url: imageURL };
+    setProjects([...projects, newProject]);
+  };
+
 
   return (
     <div className="container">
