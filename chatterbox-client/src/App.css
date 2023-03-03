@@ -145,23 +145,14 @@ margin-left: 750px;
 }
 
 #div6{
-  margin-top: 250px;
+  margin-top: 280px;
   font-family: 'Tilt Neon', cursive;
   text-align: center;
 
 }
 
-.project-image {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  object-position: center;
-  margin-bottom: 20px;
-}
+/* .project-image {
+  width: 300px;
+  height: 300px;} */
 
-.projects-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+
