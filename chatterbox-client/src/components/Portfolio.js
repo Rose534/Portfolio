@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import Skills from './Skills';
 
 function Portfolio() {
   const [projects, setProjects] = useState([]);
+  
   
 
   useEffect(() => {
@@ -11,11 +11,7 @@ function Portfolio() {
       .then(data => setProjects(data));
   }, []);
 
-  const addProject = (title, imageURL) => {
-    const newProject = { title, image_url: imageURL };
-    setProjects([...projects, newProject]);
-  };
-
+  
 
   return (
     <div className="container">
