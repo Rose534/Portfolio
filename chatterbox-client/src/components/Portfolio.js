@@ -9,12 +9,6 @@ function Portfolio() {
       .then(data => setProjects(data));
   }, []);
 
-  const handleDelete = (id) => {
-    fetch(`https://rose-portfolio-sinatra.onrender.com/projects/${id}`, { method: 'DELETE' })
-      .then(response => response.json())
-      .then(data => setProjects(prevProjects => prevProjects.filter(project => project.id !== data.id)))
-  };
-
   return (
     <div className="container">
       <h1 className="text-center mb-5">Illustrations By Rose</h1>
@@ -24,9 +18,9 @@ function Portfolio() {
             <div className="project-container">
               <img className="project-image img-fluid" src={project.image_url} alt={project.title} />
               <div className="project-overlay">
-                <button className="delete-btn" onClick={() => handleDelete(project.id)}>X</button>
+                <button className="delete-btn" >X</button>
               </div>
-              <div className="project-details">
+              <div>
                 <h5>{project.title}</h5>
               </div>
             </div>

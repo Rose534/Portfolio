@@ -9,6 +9,8 @@ function Home() {
       .then(data => setProjects(data));
   }, []);
 
+  
+
     return(
         <div>
            <img id= "girl" src="https://53525363.000webhostapp.com/Images/Kezia_Gabriella_-_Anxiety-removebg-preview.png" alt=""/>
