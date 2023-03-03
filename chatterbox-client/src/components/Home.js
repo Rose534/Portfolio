@@ -1,7 +1,13 @@
-import React from 'react';
-
+import React, { useState, useEffect } from 'react';
 
 function Home() {
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    fetch('https://rose-portfolio-sinatra.onrender.com/projects')
+      .then(response => response.json())
+      .then(data => setProjects(data));
+  }, []);
 
     return(
         <div>
@@ -42,10 +48,20 @@ function Home() {
             <li><mark>Editorial Illustration</mark></li>
             </ul>
            </div>
-           <div id="div6">
-            <h1>Recent projects</h1>
-           </div>
+           <div className="container-fluid">
+  <div id="div6">
+    <h1>Recent projects</h1>
+    <div className="row">
+      {projects.map(project => (
+        <div className="col-md-4 project" key={project.id}>
+          <img className="project-image img-fluid" src={project.image_url} alt={project.title} />
+          <h2>{project.title}</h2>
         </div>
+      ))}
+    </div>
+  </div>
+</div>
+</div>
     )
 
 }
