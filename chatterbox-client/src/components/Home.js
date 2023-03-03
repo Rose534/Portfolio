@@ -31,9 +31,16 @@ function Home() {
            </div>
            <div id="div4">
             <h1>Skills</h1>
-            <img id="img1" src="https://53525363.000webhostapp.com/Images/icons8-user-24.png" alt=""/>
-            <img id="img2" src="https://53525363.000webhostapp.com/Images/icons8-prototyping-64.png" alt=""/>
-            <img id="img3" src="https://53525363.000webhostapp.com/Images/icons8-design-50.png" alt=""/>
+           </div>
+           <div id="div5">
+            <ul>
+           <li>Visual Design</li>
+            <li>User Research</li>
+            <li>Wireframing</li>
+            <li>User Experience Design</li>
+            <li>Visual Storytelling</li>
+            <li>Editorial Illustration</li>
+            </ul>
            </div>
         </div>
     )
