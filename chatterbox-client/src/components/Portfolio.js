@@ -10,11 +10,11 @@ function Portfolio() {
   }, []);
 
   const handleDelete = (id) => {
-    // Delete the project from the API
+    
     fetch(`https://rose-portfolio-sinatra.onrender.com/projects/${id}`, {
       method: 'DELETE'
     }).then(() => {
-      // Remove the project from the state
+    
       setProjects(projects.filter(project => project.id !== id));
     });
   };
