@@ -30,18 +30,21 @@ function Skills({ projects, setProjects }) {
   }
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <label>
-          Image URL:
-          <input type="text" value={imageURL} onChange={handleImageURLChange} />
-        </label>
-        <label>
-          Title:
-          <input type="text" value={title} onChange={handleTitleChange} />
-        </label>
-        <button type="submit">Add Project</button>
-      </form>
+    <div className="container">
+      <div className="form-container">
+        <h2 id="newproject">Add New Project</h2>
+        <form onSubmit={handleSubmit} className="form">
+          <div className="form-group">
+            <label htmlFor="image-url">Image URL:</label>
+            <input type="text" id="image-url" value={imageURL} onChange={handleImageURLChange} />
+          </div>
+          <div className="form-group">
+            <label id="tite" htmlFor="title">Title:</label>
+            <input type="text" id="title" value={title} onChange={handleTitleChange} />
+          </div>
+          <button id="createbtn"type="submit">Add Project</button>
+        </form>
+      </div>
     </div>
   );
 }
