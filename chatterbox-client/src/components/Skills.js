@@ -14,7 +14,7 @@ function Skills({ projects, setProjects }) {
 
   function handleSubmit(event) {
     event.preventDefault();
-
+  
     const newProject = { image_url: imageURL, title };
     fetch('https://rose-portfolio-sinatra.onrender.com/projects', {
       method: 'POST',
