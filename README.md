@@ -21,11 +21,11 @@ You can also open it in any editor of your choice, if vscode in unavailable.
 
 # Backend
 
-This repository has all the starter code needed to get a Sinatra backend up and running. Run bundle install to install the gems.
+This repository has all the starter code needed to get a Sinatra backend up and running. Run `bundle install` to install the gems.
 
 The sinatra/ backend part of this website is under `chatterbox-server` folder
 
-The backend has already been uploaded, to view the API, go to this link: 
+The backend has already been deployed, to view the API, go to this link: 
 
     https://rose-portfolio-sinatra.onrender.com
 
