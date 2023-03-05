@@ -9,10 +9,12 @@ Open a terminal / command line interface on your computer
 
 Clone the repo by using the following:
 
-  git@github.com:Rose534/Portfolio.git
+     git@github.com:Rose534/Portfolio.git
+
 Change directory to the repo folder:
 
-    cd Portfolio
+     cd Portfolio
+
 use code . to open it in visual studio
 
 You can also open it in any editor of your choice, if vscode in unavailable.
