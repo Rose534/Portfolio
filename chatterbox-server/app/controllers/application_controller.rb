@@ -37,6 +37,7 @@ class ApplicationController < Sinatra::Base
       project.destroy
       status 204 
     end
+    
  
 
     end
