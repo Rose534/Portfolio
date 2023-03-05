@@ -181,8 +181,8 @@ margin-left: 750px;
   .delete-btn {
     display: none;
     border: none;
-    background-color: transparent;
-    font-size: 30px;
+    background-color: white;
+    font-size: 20px;
     cursor: pointer;
   }
   
@@ -225,8 +225,5 @@ margin-left: 750px;
   font-family: 'Tilt Neon', cursive;
 }
 
-#dltbtn{
-  background-color: #ffffff;
-}
 
 
