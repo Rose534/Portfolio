@@ -36,7 +36,7 @@ function Portfolio() {
               <div className="project-container">
                 <img className="project-image img-fluid" src={project.image_url} alt={project.title} />
                 <div className="project-overlay">
-                  <button className="delete-btn" onClick={() => handleDelete(project.id)}>X</button>
+                  <button id="dltbtn" className="delete-btn" onClick={() => handleDelete(project.id)}>X</button>
                 </div>
                 <div>
                   <h5>{project.title}</h5>
