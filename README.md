@@ -21,7 +21,7 @@ You can also open it in any editor of your choice, if vscode in unavailable.
 
 # Backend
 
-This repository has all the starter code needed to get a Sinatra backend up and running. Then, run bundle install to install the gems.
+This repository has all the starter code needed to get a Sinatra backend up and running. Run bundle install to install the gems.
 
 The sinatra/ backend part of this website is under `chatterbox-server` folder
 
