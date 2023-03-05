@@ -2,11 +2,15 @@ import React, { useState, useEffect } from 'react';
 
 function Home() {
   const [projects, setProjects] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetch('https://rose-portfolio-sinatra.onrender.com/projects')
       .then(response => response.json())
-      .then(data => setProjects(data));
+      .then(data => {
+        setProjects(data);
+        setLoading(false);
+      });
   }, []);
 
   return(

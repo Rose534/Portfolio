@@ -26,7 +26,7 @@ function Portfolio() {
 
   return (
     <div className="container">
-      <h1 className="text-center mb-5">Illustrations By Rose</h1>
+      <h1 id="illustrations" className="text-center mb-5">Illustrations By Rose</h1>
       {loading ? (
         <p>Loading...</p>
       ) : (

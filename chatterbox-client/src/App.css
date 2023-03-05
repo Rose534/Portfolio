@@ -192,6 +192,7 @@ margin-left: 750px;
 
  #newproject{
    text-align: center;
+   font-family: 'Tilt Neon', cursive;
  }
   
  .form-group{
@@ -218,6 +219,10 @@ margin-left: 750px;
  input:focus {
   outline: none;
   
+}
+
+#illustrations{
+  font-family: 'Tilt Neon', cursive;
 }
 
 
