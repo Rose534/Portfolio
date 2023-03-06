@@ -2,9 +2,8 @@
 # Getting started
 In order for you to use the content on this repo ensure you have the following:
 
-A computer that runs on either of the following; (Windows 7+, Linux, Mac OS) nodejs 9.0+ The questions presented in the code challange and Vscode
+A computer that runs on either of the following; (Windows 7+, Linux, Mac OS) nodejs 9.0+
 
-# Step one
 Open a terminal / command line interface on your computer
 
 Clone the repo by using the following:
@@ -23,11 +22,15 @@ You can also open it in any editor of your choice, if vscode in unavailable.
 
 This repository has all the starter code needed to get a Sinatra backend up and running. Run `bundle install` to install the gems.
 
-The sinatra/ backend part of this website is under `chatterbox-server` folder
+The sinatra/ backend part of this website is under the `chatterbox-server` folder
 
 The backend has already been deployed, to view the API, go to this link: 
 
     https://rose-portfolio-sinatra.onrender.com
+
+The backend itself has been deployed in
+
+     https://rose-portfolio-sinatra.onrender.com
 
 # Frontend
 
@@ -37,13 +40,13 @@ After cloning and forking the repo, Install JavaScript dependencies
 
     npm install
 
-To view this website, copy and paste this link onto your browser, make sure you have an internet connection.
+To view this website in its deployed version, copy and paste this link onto your browser.
 
     portfolio-rose534.vercel.app
 
 Once you have clicked on the link, be sure to login first
 
-You should be led to the Portfolio's home page which should look like this: 
+After login, you should be led to the Portfolio's home page which should look like this: 
 
 ![Screenshot from 2023-03-07 01-32-57](https://user-images.githubusercontent.com/105820877/223212075-f85fc201-0743-4f63-88b9-6f11b7951c71.png)
 
